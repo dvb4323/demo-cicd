@@ -1,9 +1,7 @@
 name: Build, Push, Ssh, Pull, Down, Up
 
-on:
-  push:
-    branches:
-      - 'staging'
+on: [push]
+  
 
 jobs:
   build-and-push:
