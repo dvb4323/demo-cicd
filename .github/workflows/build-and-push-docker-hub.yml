@@ -32,7 +32,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: dvb4323/cicd2024:staging
+          tags: dvb4323/cicd2024:staging2
 
 
   pull-and-up:
